@@ -10,8 +10,7 @@ import UIKit
 
 struct Constants {
     
-    static let apikey = "421419166c2b44948928a01863246623"
-    static let defaultURL = "https://edition.cnn.com"
+    static let apikey = "5a644882473348638e28bddf8bf19666"
     static let country = "in"
     static let searchTitle = "Search"
     static let categories: [String] = ["Business","Sports","Entertainment","General","Health"]
@@ -20,13 +19,6 @@ struct Constants {
         static let errorMessage = "Please check your internet connection and try again"
         static let errorTitle = "No internet connection"
         static let errorText = "Error"
-    }
-    struct Category {
-        static let Business = "Business"
-        static let Sports = "Sports"
-        static let Entertainment = "Entertainment"
-        static let General = "General"
-        static let Health = "Health"
     }
     struct ShowAlert {
         static let selectCategory = "Please type your category and search"

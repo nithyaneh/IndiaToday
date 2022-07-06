@@ -26,7 +26,7 @@ class IndiaTodayTests: XCTestCase {
     func testForSportsCategorySuccess() {
         let expect = expectation(description: "API success")
         Task {
-            await articleListViewModelTest.getData(category:Constants.Category.Sports)
+            await articleListViewModelTest.getData(category:Constants.categories[1])
             expect.fulfill()
         }
         waitForExpectations(timeout: 20)
@@ -42,7 +42,7 @@ class IndiaTodayTests: XCTestCase {
         let expect = expectation(description: "API success")
         
         Task {
-            await articleListViewModelTest.getData(category:Constants.Category.Business)
+            await articleListViewModelTest.getData(category:Constants.categories[0])
             expect.fulfill()
         }
         waitForExpectations(timeout: 20)
@@ -58,7 +58,7 @@ class IndiaTodayTests: XCTestCase {
         let expect = expectation(description: "API success")
         
         Task {
-            await articleListViewModelTest.getData(category:Constants.Category.Entertainment)
+            await articleListViewModelTest.getData(category:Constants.categories[2])
             expect.fulfill()
         }
         waitForExpectations(timeout: 20)
@@ -74,7 +74,22 @@ class IndiaTodayTests: XCTestCase {
         let expect = expectation(description: "API success")
         
         Task {
-            await articleListViewModelTest.getData(category:Constants.Category.General)
+            await articleListViewModelTest.getData(category:Constants.categories[3])
+            expect.fulfill()
+        }
+        waitForExpectations(timeout: 20)
+        guard let artitlceCount = articleListViewModelTest.articles?.count else {return}
+        XCTAssertTrue(artitlceCount > 0, "Data is loaded properly")
+        for article in articleListViewModelTest.articles! {
+            XCTAssertNotNil(article.title, "article data is not nil")
+            XCTAssertNotNil(article.sourceName, "source name is not nil")
+        }
+    }
+    func testForHealthCategorySuccess() {
+        let expect = expectation(description: "API success")
+        
+        Task {
+            await articleListViewModelTest.getData(category:Constants.categories[4])
             expect.fulfill()
         }
         waitForExpectations(timeout: 20)

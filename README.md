@@ -19,7 +19,7 @@
    Code is developed in **Swift 5**, built on **Xcode 13.3** executable on **iOS 15**
    Unit test and UI test covered using native XCTest and XCUITest. Coverage for most of the added classes is more than ~87%
    
-   ![image](https://user-images.githubusercontent.com/96475407/177158508-a10ec3b7-f2b8-4edb-9ef8-630083e14c8c.png)
+   ![image](https://user-images.githubusercontent.com/96475407/177536738-f16f7da0-850c-44b8-8987-4585c912c119.png)
 
 
 # ScreenShots
@@ -28,14 +28,14 @@
    
    The user's desired category will be given in the home page and after giving hit on go button, news feed screen will appears.
 
-   ![image](https://user-images.githubusercontent.com/96475407/177120525-8ae51976-ebda-4753-86a8-4fff979eb239.png)
+   ![image](https://user-images.githubusercontent.com/96475407/177536965-012ac8ca-7d6b-47b9-ac67-fee9d62082d8.png)
 
 
 #NewsFeed Screen
    
    The selected category of news will be displayed in this screen, on tapping desired news , the web screen appears.
     
-    ![image](https://user-images.githubusercontent.com/96475407/177120532-5e88c409-8286-4da3-9da2-e7b15e418972.png)
+    ![image](https://user-images.githubusercontent.com/96475407/177536846-c6a5bce7-86b9-458e-afdb-2a6d4a89476c.png)
     ![image](https://user-images.githubusercontent.com/96475407/177120540-0a51e367-40fa-4642-b713-7ef5764f8057.png)
 
 #News Detail in Safari screen
