@@ -3,18 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187A3A9728758C2700FF5CA4 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3A9628758C2700FF5CA4 /* CustomNavigationBar.swift */; };
+		187A3A9928758C4E00FF5CA4 /* AlertHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3A9828758C4E00FF5CA4 /* AlertHandler.swift */; };
+		187A3A9B28758C5D00FF5CA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3A9A28758C5D00FF5CA4 /* Constants.swift */; };
+		187A3A9D28758C6B00FF5CA4 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3A9C28758C6B00FF5CA4 /* ConnectionManager.swift */; };
+		187A3A9F28758C7600FF5CA4 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3A9E28758C7600FF5CA4 /* Loader.swift */; };
+		187A3AAE28758CD600FF5CA4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3AAB28758CD600FF5CA4 /* String+Extensions.swift */; };
+		187A3AAF28758CD600FF5CA4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3AAC28758CD600FF5CA4 /* UIView+Extensions.swift */; };
+		187A3AB028758CD600FF5CA4 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3AAD28758CD600FF5CA4 /* UIFont+Extensions.swift */; };
+		187A3ABA28758D9500FF5CA4 /* NewsDisplayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3AB928758D9500FF5CA4 /* NewsDisplayTableViewController.swift */; };
+		187A3ABC28758DAC00FF5CA4 /* NewsCategorySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3ABB28758DAC00FF5CA4 /* NewsCategorySelectionViewController.swift */; };
+		187A3ABE28758DC500FF5CA4 /* NewsDisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3ABD28758DC500FF5CA4 /* NewsDisplayTableViewCell.swift */; };
+		187A3AC028758DFE00FF5CA4 /* NewsArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3ABF28758DFE00FF5CA4 /* NewsArticleViewModel.swift */; };
+		187A3AC228758E5600FF5CA4 /* NewsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3AC128758E5600FF5CA4 /* NewsResponseModel.swift */; };
+		187A3ACD28758F3600FF5CA4 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3ACC28758F3600FF5CA4 /* Webservice.swift */; };
+		187A3AD028758F4100FF5CA4 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3ACE28758F4100FF5CA4 /* Endpoint.swift */; };
+		187A3AD128758F4100FF5CA4 /* CategoryEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3ACF28758F4100FF5CA4 /* CategoryEndpoint.swift */; };
+		187A3AD328758F4800FF5CA4 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3AD228758F4800FF5CA4 /* ErrorHandler.swift */; };
+		187A3AD52875904C00FF5CA4 /* WaitExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A3AD42875904C00FF5CA4 /* WaitExpectation.swift */; };
+		187A3AD6287590A900FF5CA4 /* Business_in.json in Resources */ = {isa = PBXBuildFile; fileRef = 187A3AA328758CAE00FF5CA4 /* Business_in.json */; };
+		187A3AD7287590AC00FF5CA4 /* Entertainment_in.json in Resources */ = {isa = PBXBuildFile; fileRef = 187A3AA028758CAE00FF5CA4 /* Entertainment_in.json */; };
+		187A3AD8287590AE00FF5CA4 /* General_in.json in Resources */ = {isa = PBXBuildFile; fileRef = 187A3AA428758CAE00FF5CA4 /* General_in.json */; };
+		187A3ADA287590B300FF5CA4 /* Health_in.json in Resources */ = {isa = PBXBuildFile; fileRef = 187A3AA228758CAE00FF5CA4 /* Health_in.json */; };
+		187A3ADB287590B700FF5CA4 /* Sports_in.json in Resources */ = {isa = PBXBuildFile; fileRef = 187A3AA128758CAE00FF5CA4 /* Sports_in.json */; };
+		187A3ADD2875990000FF5CA4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187A3ADC2875990000FF5CA4 /* Launch Screen.storyboard */; };
 		189CAEB8287586FE00FCD737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CAEB7287586FE00FCD737 /* AppDelegate.swift */; };
 		189CAEBA287586FE00FCD737 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CAEB9287586FE00FCD737 /* SceneDelegate.swift */; };
-		189CAEBC287586FE00FCD737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CAEBB287586FE00FCD737 /* ViewController.swift */; };
 		189CAEBF287586FE00FCD737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189CAEBD287586FE00FCD737 /* Main.storyboard */; };
 		189CAEC12875871000FCD737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189CAEC02875871000FCD737 /* Assets.xcassets */; };
-		189CAEC42875871000FCD737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189CAEC22875871000FCD737 /* LaunchScreen.storyboard */; };
 		189CAECF2875871000FCD737 /* IndiaTodayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CAECE2875871000FCD737 /* IndiaTodayTests.swift */; };
 		189CAEDA2875871000FCD737 /* IndiaTodayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CAED92875871000FCD737 /* IndiaTodayUITests.swift */; };
+		1C79B8F55AD4E5B28E44B6B6 /* Pods_IndiaTodayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7564BB40D4750B890D355C /* Pods_IndiaTodayTests.framework */; };
+		9E4967802A5F95BDDFF9CD67 /* Pods_IndiaToday_IndiaTodayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C376E8DB2D46D9CBE6D785 /* Pods_IndiaToday_IndiaTodayUITests.framework */; };
+		CC033FBA1C9EDC7F0381DAAD /* Pods_IndiaToday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F08ACE8ADC950F83C3F2158 /* Pods_IndiaToday.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +60,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		187A3A9628758C2700FF5CA4 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		187A3A9828758C4E00FF5CA4 /* AlertHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHandler.swift; sourceTree = "<group>"; };
+		187A3A9A28758C5D00FF5CA4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		187A3A9C28758C6B00FF5CA4 /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		187A3A9E28758C7600FF5CA4 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		187A3AA028758CAE00FF5CA4 /* Entertainment_in.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Entertainment_in.json; sourceTree = "<group>"; };
+		187A3AA128758CAE00FF5CA4 /* Sports_in.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sports_in.json; sourceTree = "<group>"; };
+		187A3AA228758CAE00FF5CA4 /* Health_in.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Health_in.json; sourceTree = "<group>"; };
+		187A3AA328758CAE00FF5CA4 /* Business_in.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Business_in.json; sourceTree = "<group>"; };
+		187A3AA428758CAE00FF5CA4 /* General_in.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = General_in.json; sourceTree = "<group>"; };
+		187A3AAB28758CD600FF5CA4 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		187A3AAC28758CD600FF5CA4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		187A3AAD28758CD600FF5CA4 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		187A3AB928758D9500FF5CA4 /* NewsDisplayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDisplayTableViewController.swift; sourceTree = "<group>"; };
+		187A3ABB28758DAC00FF5CA4 /* NewsCategorySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCategorySelectionViewController.swift; sourceTree = "<group>"; };
+		187A3ABD28758DC500FF5CA4 /* NewsDisplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDisplayTableViewCell.swift; sourceTree = "<group>"; };
+		187A3ABF28758DFE00FF5CA4 /* NewsArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticleViewModel.swift; sourceTree = "<group>"; };
+		187A3AC128758E5600FF5CA4 /* NewsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponseModel.swift; sourceTree = "<group>"; };
+		187A3ACC28758F3600FF5CA4 /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		187A3ACE28758F4100FF5CA4 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		187A3ACF28758F4100FF5CA4 /* CategoryEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryEndpoint.swift; sourceTree = "<group>"; };
+		187A3AD228758F4800FF5CA4 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		187A3AD42875904C00FF5CA4 /* WaitExpectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitExpectation.swift; sourceTree = "<group>"; };
+		187A3ADC2875990000FF5CA4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		189CAEB4287586FE00FCD737 /* IndiaToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndiaToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189CAEB7287586FE00FCD737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		189CAEB9287586FE00FCD737 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		189CAEBB287586FE00FCD737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		189CAEBE287586FE00FCD737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189CAEC02875871000FCD737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		189CAEC32875871000FCD737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189CAEC52875871000FCD737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189CAECA2875871000FCD737 /* IndiaTodayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndiaTodayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189CAECE2875871000FCD737 /* IndiaTodayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaTodayTests.swift; sourceTree = "<group>"; };
@@ -49,6 +96,15 @@
 		189CAED52875871000FCD737 /* IndiaTodayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndiaTodayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189CAED92875871000FCD737 /* IndiaTodayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiaTodayUITests.swift; sourceTree = "<group>"; };
 		189CAEDB2875871000FCD737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1952A8117356813A731AFB04 /* Pods-IndiaTodayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiaTodayTests.release.xcconfig"; path = "Target Support Files/Pods-IndiaTodayTests/Pods-IndiaTodayTests.release.xcconfig"; sourceTree = "<group>"; };
+		239C762E2C21C32EE6BE31AD /* Pods-IndiaToday-IndiaTodayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiaToday-IndiaTodayUITests.release.xcconfig"; path = "Target Support Files/Pods-IndiaToday-IndiaTodayUITests/Pods-IndiaToday-IndiaTodayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B310ADF964F39BC0E049A99 /* Pods-IndiaToday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiaToday.release.xcconfig"; path = "Target Support Files/Pods-IndiaToday/Pods-IndiaToday.release.xcconfig"; sourceTree = "<group>"; };
+		4F08ACE8ADC950F83C3F2158 /* Pods_IndiaToday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndiaToday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C376E8DB2D46D9CBE6D785 /* Pods_IndiaToday_IndiaTodayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndiaToday_IndiaTodayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		701ABE4B6D66DC9A90B3B0ED /* Pods-IndiaToday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiaToday.debug.xcconfig"; path = "Target Support Files/Pods-IndiaToday/Pods-IndiaToday.debug.xcconfig"; sourceTree = "<group>"; };
+		8C7564BB40D4750B890D355C /* Pods_IndiaTodayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndiaTodayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC65E833E752CFC320DA069D /* Pods-IndiaToday-IndiaTodayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiaToday-IndiaTodayUITests.debug.xcconfig"; path = "Target Support Files/Pods-IndiaToday-IndiaTodayUITests/Pods-IndiaToday-IndiaTodayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE42CF2CFCFF1BCC6E642658 /* Pods-IndiaTodayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiaTodayTests.debug.xcconfig"; path = "Target Support Files/Pods-IndiaTodayTests/Pods-IndiaTodayTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC033FBA1C9EDC7F0381DAAD /* Pods_IndiaToday.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C79B8F55AD4E5B28E44B6B6 /* Pods_IndiaTodayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +128,169 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4967802A5F95BDDFF9CD67 /* Pods_IndiaToday_IndiaTodayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14DB8801441E759DCD6E5C94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F08ACE8ADC950F83C3F2158 /* Pods_IndiaToday.framework */,
+				66C376E8DB2D46D9CBE6D785 /* Pods_IndiaToday_IndiaTodayUITests.framework */,
+				8C7564BB40D4750B890D355C /* Pods_IndiaTodayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17E5F8D64BF178D210C5F77D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				701ABE4B6D66DC9A90B3B0ED /* Pods-IndiaToday.debug.xcconfig */,
+				4B310ADF964F39BC0E049A99 /* Pods-IndiaToday.release.xcconfig */,
+				DC65E833E752CFC320DA069D /* Pods-IndiaToday-IndiaTodayUITests.debug.xcconfig */,
+				239C762E2C21C32EE6BE31AD /* Pods-IndiaToday-IndiaTodayUITests.release.xcconfig */,
+				DE42CF2CFCFF1BCC6E642658 /* Pods-IndiaTodayTests.debug.xcconfig */,
+				1952A8117356813A731AFB04 /* Pods-IndiaTodayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		187A3A8828758B3A00FF5CA4 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				189CAEB7287586FE00FCD737 /* AppDelegate.swift */,
+				189CAEB9287586FE00FCD737 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		187A3A9128758B9A00FF5CA4 /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				187A3AA328758CAE00FF5CA4 /* Business_in.json */,
+				187A3AA028758CAE00FF5CA4 /* Entertainment_in.json */,
+				187A3AA428758CAE00FF5CA4 /* General_in.json */,
+				187A3AA228758CAE00FF5CA4 /* Health_in.json */,
+				187A3AA128758CAE00FF5CA4 /* Sports_in.json */,
+			);
+			path = "Mock Data";
+			sourceTree = "<group>";
+		};
+		187A3A9228758BAD00FF5CA4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				187A3A9628758C2700FF5CA4 /* CustomNavigationBar.swift */,
+				187A3A9828758C4E00FF5CA4 /* AlertHandler.swift */,
+				187A3A9A28758C5D00FF5CA4 /* Constants.swift */,
+				187A3A9C28758C6B00FF5CA4 /* ConnectionManager.swift */,
+				187A3A9E28758C7600FF5CA4 /* Loader.swift */,
+				187A3AAA28758CBE00FF5CA4 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		187A3A9328758BC400FF5CA4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				187A3ACB28758F2100FF5CA4 /* ErrorHandler */,
+				187A3ACA28758F1B00FF5CA4 /* End Point */,
+				187A3AC928758F1300FF5CA4 /* Service */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		187A3A9428758BDD00FF5CA4 /* News Modules */ = {
+			isa = PBXGroup;
+			children = (
+				187A3AB128758CFA00FF5CA4 /* Model */,
+				187A3AB228758CFF00FF5CA4 /* View */,
+				187A3AB328758D0E00FF5CA4 /* View Model */,
+				187A3AB428758D1900FF5CA4 /* Controller */,
+			);
+			name = "News Modules";
+			sourceTree = "<group>";
+		};
+		187A3A9528758BFF00FF5CA4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				189CAEBD287586FE00FCD737 /* Main.storyboard */,
+				187A3ADC2875990000FF5CA4 /* Launch Screen.storyboard */,
+				189CAEC02875871000FCD737 /* Assets.xcassets */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		187A3AAA28758CBE00FF5CA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				187A3AAB28758CD600FF5CA4 /* String+Extensions.swift */,
+				187A3AAD28758CD600FF5CA4 /* UIFont+Extensions.swift */,
+				187A3AAC28758CD600FF5CA4 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		187A3AB128758CFA00FF5CA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				187A3AC128758E5600FF5CA4 /* NewsResponseModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		187A3AB228758CFF00FF5CA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				187A3ABD28758DC500FF5CA4 /* NewsDisplayTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		187A3AB328758D0E00FF5CA4 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				187A3ABF28758DFE00FF5CA4 /* NewsArticleViewModel.swift */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		187A3AB428758D1900FF5CA4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				187A3ABB28758DAC00FF5CA4 /* NewsCategorySelectionViewController.swift */,
+				187A3AB928758D9500FF5CA4 /* NewsDisplayTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		187A3AC928758F1300FF5CA4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				187A3ACC28758F3600FF5CA4 /* Webservice.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		187A3ACA28758F1B00FF5CA4 /* End Point */ = {
+			isa = PBXGroup;
+			children = (
+				187A3ACF28758F4100FF5CA4 /* CategoryEndpoint.swift */,
+				187A3ACE28758F4100FF5CA4 /* Endpoint.swift */,
+			);
+			name = "End Point";
+			sourceTree = "<group>";
+		};
+		187A3ACB28758F2100FF5CA4 /* ErrorHandler */ = {
+			isa = PBXGroup;
+			children = (
+				187A3AD228758F4800FF5CA4 /* ErrorHandler.swift */,
+			);
+			name = ErrorHandler;
+			sourceTree = "<group>";
+		};
 		189CAEAB287586FE00FCD737 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +298,8 @@
 				189CAECD2875871000FCD737 /* IndiaTodayTests */,
 				189CAED82875871000FCD737 /* IndiaTodayUITests */,
 				189CAEB5287586FE00FCD737 /* Products */,
+				17E5F8D64BF178D210C5F77D /* Pods */,
+				14DB8801441E759DCD6E5C94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +316,12 @@
 		189CAEB6287586FE00FCD737 /* IndiaToday */ = {
 			isa = PBXGroup;
 			children = (
-				189CAEB7287586FE00FCD737 /* AppDelegate.swift */,
-				189CAEB9287586FE00FCD737 /* SceneDelegate.swift */,
-				189CAEBB287586FE00FCD737 /* ViewController.swift */,
-				189CAEBD287586FE00FCD737 /* Main.storyboard */,
-				189CAEC02875871000FCD737 /* Assets.xcassets */,
-				189CAEC22875871000FCD737 /* LaunchScreen.storyboard */,
+				187A3A8828758B3A00FF5CA4 /* AppDelegates */,
+				187A3A9428758BDD00FF5CA4 /* News Modules */,
+				187A3A9328758BC400FF5CA4 /* Network */,
+				187A3A9228758BAD00FF5CA4 /* Helpers */,
+				187A3A9128758B9A00FF5CA4 /* Mock Data */,
+				187A3A9528758BFF00FF5CA4 /* Utilities */,
 				189CAEC52875871000FCD737 /* Info.plist */,
 			);
 			path = IndiaToday;
@@ -123,6 +340,7 @@
 			isa = PBXGroup;
 			children = (
 				189CAED92875871000FCD737 /* IndiaTodayUITests.swift */,
+				187A3AD42875904C00FF5CA4 /* WaitExpectation.swift */,
 				189CAEDB2875871000FCD737 /* Info.plist */,
 			);
 			path = IndiaTodayUITests;
@@ -135,9 +353,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 189CAEDE2875871000FCD737 /* Build configuration list for PBXNativeTarget "IndiaToday" */;
 			buildPhases = (
+				4002455E9F7C8890B3C6775E /* [CP] Check Pods Manifest.lock */,
 				189CAEB0287586FE00FCD737 /* Sources */,
 				189CAEB1287586FE00FCD737 /* Frameworks */,
 				189CAEB2287586FE00FCD737 /* Resources */,
+				00059A19A1173C18895E4A91 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +372,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 189CAEE12875871000FCD737 /* Build configuration list for PBXNativeTarget "IndiaTodayTests" */;
 			buildPhases = (
+				B832016AAFA6D4839CB34B16 /* [CP] Check Pods Manifest.lock */,
 				189CAEC62875871000FCD737 /* Sources */,
 				189CAEC72875871000FCD737 /* Frameworks */,
 				189CAEC82875871000FCD737 /* Resources */,
@@ -170,9 +391,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 189CAEE42875871000FCD737 /* Build configuration list for PBXNativeTarget "IndiaTodayUITests" */;
 			buildPhases = (
+				2C3497A333FE9587365CA27E /* [CP] Check Pods Manifest.lock */,
 				189CAED12875871000FCD737 /* Sources */,
 				189CAED22875871000FCD737 /* Frameworks */,
 				189CAED32875871000FCD737 /* Resources */,
+				98174E9876680BDACF997B78 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +454,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189CAEC42875871000FCD737 /* LaunchScreen.storyboard in Resources */,
+				187A3ADD2875990000FF5CA4 /* Launch Screen.storyboard in Resources */,
 				189CAEC12875871000FCD737 /* Assets.xcassets in Resources */,
 				189CAEBF287586FE00FCD737 /* Main.storyboard in Resources */,
 			);
@@ -241,6 +464,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187A3AD6287590A900FF5CA4 /* Business_in.json in Resources */,
+				187A3AD8287590AE00FF5CA4 /* General_in.json in Resources */,
+				187A3ADA287590B300FF5CA4 /* Health_in.json in Resources */,
+				187A3ADB287590B700FF5CA4 /* Sports_in.json in Resources */,
+				187A3AD7287590AC00FF5CA4 /* Entertainment_in.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +481,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00059A19A1173C18895E4A91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IndiaToday/Pods-IndiaToday-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IndiaToday/Pods-IndiaToday-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IndiaToday/Pods-IndiaToday-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C3497A333FE9587365CA27E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndiaToday-IndiaTodayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4002455E9F7C8890B3C6775E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndiaToday-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98174E9876680BDACF997B78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IndiaToday-IndiaTodayUITests/Pods-IndiaToday-IndiaTodayUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IndiaToday-IndiaTodayUITests/Pods-IndiaToday-IndiaTodayUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IndiaToday-IndiaTodayUITests/Pods-IndiaToday-IndiaTodayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B832016AAFA6D4839CB34B16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndiaTodayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		189CAEB0287586FE00FCD737 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189CAEBC287586FE00FCD737 /* ViewController.swift in Sources */,
+				187A3A9728758C2700FF5CA4 /* CustomNavigationBar.swift in Sources */,
+				187A3ABE28758DC500FF5CA4 /* NewsDisplayTableViewCell.swift in Sources */,
+				187A3AB028758CD600FF5CA4 /* UIFont+Extensions.swift in Sources */,
+				187A3A9928758C4E00FF5CA4 /* AlertHandler.swift in Sources */,
+				187A3AAF28758CD600FF5CA4 /* UIView+Extensions.swift in Sources */,
+				187A3ABA28758D9500FF5CA4 /* NewsDisplayTableViewController.swift in Sources */,
+				187A3A9D28758C6B00FF5CA4 /* ConnectionManager.swift in Sources */,
+				187A3AAE28758CD600FF5CA4 /* String+Extensions.swift in Sources */,
 				189CAEB8287586FE00FCD737 /* AppDelegate.swift in Sources */,
+				187A3AD028758F4100FF5CA4 /* Endpoint.swift in Sources */,
 				189CAEBA287586FE00FCD737 /* SceneDelegate.swift in Sources */,
+				187A3A9F28758C7600FF5CA4 /* Loader.swift in Sources */,
+				187A3ABC28758DAC00FF5CA4 /* NewsCategorySelectionViewController.swift in Sources */,
+				187A3A9B28758C5D00FF5CA4 /* Constants.swift in Sources */,
+				187A3AC028758DFE00FF5CA4 /* NewsArticleViewModel.swift in Sources */,
+				187A3AC228758E5600FF5CA4 /* NewsResponseModel.swift in Sources */,
+				187A3AD328758F4800FF5CA4 /* ErrorHandler.swift in Sources */,
+				187A3ACD28758F3600FF5CA4 /* Webservice.swift in Sources */,
+				187A3AD128758F4100FF5CA4 /* CategoryEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +624,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189CAEDA2875871000FCD737 /* IndiaTodayUITests.swift in Sources */,
+				187A3AD52875904C00FF5CA4 /* WaitExpectation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +650,6 @@
 				189CAEBE287586FE00FCD737 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		189CAEC22875871000FCD737 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				189CAEC32875871000FCD737 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -366,7 +706,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +761,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,12 +773,14 @@
 		};
 		189CAEDF2875871000FCD737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 701ABE4B6D66DC9A90B3B0ED /* Pods-IndiaToday.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38M8YX2KF6;
 				INFOPLIST_FILE = IndiaToday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +794,14 @@
 		};
 		189CAEE02875871000FCD737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B310ADF964F39BC0E049A99 /* Pods-IndiaToday.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38M8YX2KF6;
 				INFOPLIST_FILE = IndiaToday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,13 +815,14 @@
 		};
 		189CAEE22875871000FCD737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE42CF2CFCFF1BCC6E642658 /* Pods-IndiaTodayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38M8YX2KF6;
 				INFOPLIST_FILE = IndiaTodayTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,13 +838,14 @@
 		};
 		189CAEE32875871000FCD737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1952A8117356813A731AFB04 /* Pods-IndiaTodayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38M8YX2KF6;
 				INFOPLIST_FILE = IndiaTodayTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -515,6 +861,7 @@
 		};
 		189CAEE52875871000FCD737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC65E833E752CFC320DA069D /* Pods-IndiaToday-IndiaTodayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +882,7 @@
 		};
 		189CAEE62875871000FCD737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239C762E2C21C32EE6BE31AD /* Pods-IndiaToday-IndiaTodayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

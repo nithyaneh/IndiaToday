@@ -1,0 +1,24 @@
+PODS:
+  - Kingfisher (7.2.4)
+  - ReachabilitySwift (5.0.0)
+  - SwiftLint (0.47.1)
+
+DEPENDENCIES:
+  - Kingfisher
+  - ReachabilitySwift
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - ReachabilitySwift
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Kingfisher: 2457be2121734e69e54a2312ecc0150eb9ae70b3
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SwiftLint: f80f1be7fa96d30e0aa68e58d45d4ea1ccaac519
+
+PODFILE CHECKSUM: d0c548d0c97a6e3ce58bb961c168dec7f385032a
+
+COCOAPODS: 1.11.3
