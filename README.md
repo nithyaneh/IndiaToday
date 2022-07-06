@@ -17,7 +17,7 @@
 # Tech
 
    Code is developed in **Swift 5**, built on **Xcode 13.3** executable on **iOS 15**
-   Unit test and UI test covered using native XCTest and XCUITest. Coverage for most of the added classes is more than ~87%
+   Unit test and UI test covered using native XCTest and XCUITest. Coverage for most of the added classes is more than ~85%
    
    ![image](https://user-images.githubusercontent.com/96475407/177536738-f16f7da0-850c-44b8-8987-4585c912c119.png)
 
